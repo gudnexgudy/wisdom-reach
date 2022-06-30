@@ -1,2 +1,3 @@
-# wisdom-reach
+# Wisdom Reach
+
 Reach Bear Builder Challenge

@@ -5,14 +5,12 @@ const commonInteract = {
   reportTransfer: Fun([UInt], Null),
   reportPayment: Fun([UInt], Null),
 };
-
 const sellerInteract = {
   ...commonInteract,
-    price: UInt,
-    wisdom: Bytes(128),
-    reportReady: Fun([UInt], Null),
+  price: UInt,
+  wisdom: Bytes(128),
+  reportReady: Fun([UInt], Null),
 };
-
 const buyerInteract = {
   ...commonInteract,
   confirmPurchase: Fun([UInt], Bool),
@@ -52,5 +50,6 @@ export const main = Reach.App(() => {
   B.interact.reportWisdom(wisdom);
 
   exit();
-
 });
+Footer
+© 2022 GitHub, Inc.
